@@ -70,11 +70,22 @@
                     <img class="line12" src="img/Line 1.png" alt="">
                     <div class="text">
                         <img class="spilscreen" src="img/spilpic.png" alt="">
-                        <p>På baggrund af “10 ideer” øvelsen, fandt jeg frem til spillet om en person der smadre glas på en glasfabrik.
-                        Ud fra dette, skabte jeg en historie bag spillet som er således:</p>
-                        <i>En mand er blevet fyret fra en glasfabrik, hvilket sender ham ind i et raserianfald.
-                        Som hævn bryder han ind på fabrikken, slukker for overvågningskameraret, og har et minut til at smadre så mange glas som muligt før kameraret tændes igen.</i>
-                        <p>Da inspirationen var på plads, begyndte jeg at lave en paper-prototype, som viste de elementer jeg ønskede at inkludere i mit spil, samt hvordan jeg ønskede at det skulle fungere.</p>
+                        <p>Resultatet blev således “Glasspillet.”</p>
+                        <p>
+                        Spillet har tre forskellige typer af elementer: normale glas, revnet glas, og radioaktive glas. For at vinde, skal du klikke på de normale glas, og undgå de revnet glas og de radioaktive glas, da de revnet glas fjerner et point per klik, mens radioaktive glas resulterer i instadeath/game over.
+                        Disse tre typer glas flyver ind horisontalt fra venstre side, i forskellige tilfældige hastigheder.</p>
+                        <ul>
+                            <li>Trykker du på et almindeligt glas, hører du en lyd af et glas der smadrer. Glasset fader ud og forsvinder mens den er i fortsat bevægelse.</li>
+                            <li>Trykker du på et revnet glas, hører du også lyden af et glas der smadrer, sammen med en stemme der siger ”AV!”. Glasset stopper med at bevæge sig når du trykker på det, og zoomer ind før det forsvinder.</li>
+                            <li>Trykker du på et radioaktivt glas, hører du lyden af en eksplosion. Glasset roterer, forsvinder, og et grønt overlay/grøn røg fylder skærmen, før ”Game over” pop-up vises.</li>
+                            <li>Du mister ikke points/liv ved ikke at ramme de gode glas.
+                            </li>
+                        </ul>
+                        <p>
+                            I forhold til visualisering af tid, point og liv, foregår det således:
+                            Tid vises i øverste højre hjørne, og illustreres gennem en outline af et overvågningskamera. Outlinet bliver langsomt farvet rødt i løbet af minuttet - farven starter nedefra, og skalere indtil omfanget af outline er udfyldt. Når dette sker, er tiden gået.</p>
+                        <p>Points vises nederst i midten via text. F.eks. vil der stå ”Points: 5”, hvis du har fem points. Ligesom points, vises liv også gennem tekst. Som eksempel, har man alle tre liv, vises dette: ”Liv: 1 2 3”. Liv er placeret i øverste venstre hjørne.
+                            Du vinder spillet, hvis du stadigvæk har minimun et liv tilbage efter minuttet er gået, og taber hvis du enten trykker på det radioaktive glas, eller revnet glas tre gange.</p>
                     </div>
                     <img class="line3" src="img/Line3.png" alt="">
                 </div>

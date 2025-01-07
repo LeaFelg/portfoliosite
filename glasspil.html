@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glasspil</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+          <img class="logo" src="img/logo.png" alt="Logo">
+          <input type="checkbox" id="burger-toggle" />
+          <label for="burger-toggle" class="burger-menu"> ☰ </label>
+          <nav>
+            <ul class="menu">
+              <li><a href="index.html">Hjem</a></li>
+              <li><a href="studiestartsproeve.html">Tema 2</a></li>
+              <li><a href="tegneguide.html">Tema 3</a></li>
+              <li><a href="glasspil.html">Tema 4</a></li>
+              <li><a href="passionogvirksomhed.html">Tema 5</a></li>
+              <li><a href="ommig.html">Om mig</a></li>
+            </ul>
+          </nav>
+        </header>
+    <main>
+        <div class="hero">
+            <img src="img/heroglass.png" alt="Hero Image">
+            <h1>Tema 4: Glasspil</h1>
+            <a href="https://leafgreen.dk/t4%20animation/website/spil.html">
+                <button class="hjemmesidebtn">Besøg side</button>
+            </a>
+        </div>
+        <section class="opgaven">
+            <h2>Projektbeskrivelse:</h2>
+            <img class="line12" src="img/Line 1.png" alt="">
+            <div class="text">
+                <p>
+                    I tema 4, skulle vi skabe et simpelt online spil med brug af HTML, CSS og JavaScript. Herudover skulle vi selv tegne elementerne i Adobe Illustrator, og optage eget lyd.  
+                </p>
+                <p>
+                    Det skulle være et simpelt klik-spil, som skulle indeholde animerede klikbare elementer, et funktionelt pointsystem og countdown, en forside, samt “Game Over” og “du har vundet” elementer.
+                </p>
+            </div>
+        </section>
+        <section class="resultat">
+            <img class="line3" src="img/Line3.png" alt="">
+            <div class="indholdguide">
+                <div class="textinhold">
+                    <h3>Designprocess:</h3>
+                    <img class="line12" src="img/Line 1.png" alt="">
+                    <div class="text">
+                        <p>På baggrund af “10 ideer” øvelsen, fandt jeg frem til spillet om en person der smadre glas på en glasfabrik.
+                        Ud fra dette, skabte jeg en historie bag spillet som er således:</p>
+                        <i>En mand er blevet fyret fra en glasfabrik, hvilket sender ham ind i et raserianfald.
+                        Som hævn bryder han ind på fabrikken, slukker for overvågningskameraret, og har et minut til at smadre så mange glas som muligt før kameraret tændes igen.</i>
+                        <p>Da inspirationen var på plads, begyndte jeg at lave en paper-prototype, som viste de elementer jeg ønskede at inkludere i mit spil, samt hvordan jeg ønskede at det skulle fungere.</p>
+                    </div>
+                </div>
+                <div class="t4pics">
+                    <img class="t2billede" src="img/paper1.png" alt="">
+                    <img class="t2billede" src="img/paper2.png" alt="">
+                </div>
+        </div>
+        </section>
+        <section class="resultat">
+            <img class="line3" src="img/Line3.png" alt="">
+            <div class="textinhold">
+                    <h3>Resultat:</h3>
+                    <img class="line12" src="img/Line 1.png" alt="">
+                    <div class="text">
+                        <img class="spilscreen" src="img/spilpic.png" alt="">
+                        <p>På baggrund af “10 ideer” øvelsen, fandt jeg frem til spillet om en person der smadre glas på en glasfabrik.
+                        Ud fra dette, skabte jeg en historie bag spillet som er således:</p>
+                        <i>En mand er blevet fyret fra en glasfabrik, hvilket sender ham ind i et raserianfald.
+                        Som hævn bryder han ind på fabrikken, slukker for overvågningskameraret, og har et minut til at smadre så mange glas som muligt før kameraret tændes igen.</i>
+                        <p>Da inspirationen var på plads, begyndte jeg at lave en paper-prototype, som viste de elementer jeg ønskede at inkludere i mit spil, samt hvordan jeg ønskede at det skulle fungere.</p>
+                    </div>
+                    <img class="line3" src="img/Line3.png" alt="">
+                </div>
+        </div>
+        </section>
+        <section class="elementer">
+            <h3>Elementer:</h3>
+            <div class="process-img">
+                <div class="pic">
+                    <h4>Baggrund</h4>
+                    <img src="img/heroglass.png" alt="">
+                    <p>Spillets baggrund er et simpelt design, inspireret af forskellige billeder jeg fandt af værksteder. Jeg valgte nogle mere støvede, brune, grønne og gule farver, for at de andre elementer ikke vil forsvinde ind i baggrunden.</p>
+                </div>
+                <div class="pic">
+                    <h4>Game Over</h4>
+                    <img src="img/Gameover.png" alt="">
+                    <p>Spillet’s “Game Over” element skulle bruges som overlay over spillets skærm, når spilleren har tabt. </p>
+                </div>
+                <div class="pic">
+                    <h4>Timer</h4>
+                    <img src="img/timer.png" alt="">
+                    <p>Timeren er dette overvågningskamera, som animeres til at blive mere og mere rød i løbet af det minut, spilleren har til at færdiggøre spillet.</p>
+                    <p>Outline er hvidt ved spillets start, og rødt ved spillets slutning.</p>
+                </div>
+                <div class="pic">
+                    <h4>Liv og points</h4>
+                    <img src="img/ui.png" alt="">
+                    <p>Spilleren har i alt 3 liv, som vises over første billede. 
+                    I andet billede vises points ovenpå glasses nedenunder “Points”.</p>
+                </div>
+                <div class="pic">
+                    <h4>Glas</h4>
+                    <img src="img/glas.png" alt="">
+                    <p>Disse glas er de elementer, som flyder ind over skærmen under spillet. Alle elementerne er en smule transparante, hvilket har til formål bedre at illustrere at det er glas. Det blå og lilla glas er de “gode” glas, dvs dem som giver point, mens det gule glas fjerner et liv per klik. Herudover er der det grønne glas, som giver instant death hvis spilleren trykker på det.</p>
+                    <p>I nederste linje ses de billeder som glassende erstattes med når glasset smadres.</p>
+                </div>
+            </div>
+        </section>
+        <section class="takeaway">
+            <div class="text-container">
+              <h3>Hvad tager jeg med videre fra temaet:</h3>
+              <img class="line12" src="img/Line 1.png" alt="">
+              <p>I dette tema lærte jeg illustrator at kende, hvilket jeg selv synes jeg er blevet ret god til. Herudover begyndte vi på JavaScript, hvilket jeg stadigvæk i dag synes er svært. Det gik alt for hurtigt for mig da vi gennemgik det i undervisningen, så derfor kunne jeg ikke nå at få spillet til at virke.
+              </p>
+              <p>Så noget af det vigtigste jeg kan tage med herfra er at jeg skal bruge mere tid på at sætte mig ind i JavaScript, så jeg vil kunne bruge og forstå det i fremtidige projekter.</p>
+            </div>
+            <img class="vertical-line2" src="img/vertical2.png" alt="">
+            <div class="icon-container">
+              <div class="icon-circle">
+                <img src="img/glasikon.png" alt="Pencil Icon">
+              </div>
+            </div>
+          </section>
+    </main>
+    <footer class="footer">
+    </footer>
+</body>
+</html>
